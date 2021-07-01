@@ -6,10 +6,10 @@ import java.sql.*;
 
 public class DBUtil {
     //sql数据库连接字符串
-    private static final String URL="jdbc:mysql://47.111.190.15:3306/todos";
+    private static final String URL="";
     //sql用户名 和密码 用作连接用
     private static final String USERNAME="root";
-    private static final String PWD="wangyifan52199@";
+    private static final String PWD="11111";
 
     public static Connection connection=null;
     public static PreparedStatement pst =null;
